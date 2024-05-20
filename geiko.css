@@ -1,179 +1,267 @@
-*{
+* {
+    max-width: 100%;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo{
+
+.logo {
     background-color: rgba(218, 18, 245, 0.445);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.logo img{
+
+.logo img {
     padding: 5px 10px;
     width: 80px;
     border-radius: 30%;
     margin: 0% 10%;
 }
-.menu{
-  margin: auto;
+
+.menu {
+    margin: auto;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: white;
     transition: 0.5s;
 }
-.menu a:hover{
+
+.menu a:hover {
     text-decoration: none;
     color: rgb(15, 133, 87);
     background-color: rgba(255, 0, 0, 0.466);
     border-radius: 10%;
     padding: 10px;
 }
-.menu li{
+
+.menu li {
     list-style: none;
     display: inline-block;
-         padding: 0px 10px;
+    padding: 0px 10px;
 }
-.titulo{
+
+.titulo {
     text-align: center;
     padding: 50px;
     background-color: yellowgreen;
 }
-.bus{
+
+.bus {
     background-color: rgba(194, 164, 159, 0.075);
     width: 90%;
     margin: 50px auto;
     box-shadow: 2px 2px 2px 2px;
 }
-.bus h2{
+
+.bus h2 {
     text-align: center;
     padding: 20px;
 }
-.it-bus{
+
+.it-bus {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
-.it-bus li{
+
+.it-bus li {
     margin: 2px;
     padding: 20px;
     list-style: none;
     display: inline-block;
 }
-.it-bus a{
+
+.it-bus a {
     text-decoration: none;
     color: rgb(24, 10, 10);
     transition: 0.5s;
 }
-.it-bus a:hover{
+
+.it-bus a:hover {
     color: green;
     background-color: palevioletred;
     padding: 10px;
     border-radius: 20px;
 }
-.container{
+
+.container {
     margin: 50px auto;
     width: 80%;
     background-color: thistle;
 }
-.item{
+
+.item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.item img{
+
+.item img {
     padding: 10px 20px;
     width: 100px;
 }
-.imf img{
+
+.imf img {
     width: 50%;
 }
-.busa{
-    background-color: yellow;
-    margin: 20px auto;
-    font-size: 20px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.busa input{
-    padding: 3%;
-    margin: 0px 20px;
-    font-size: 20px;
-}
-.ch{
+
+.ch {
     border: 30px red solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0px;
+    padding: 20px;
 }
-.f{
+
+.f {
     width: 80%;
     margin: 80px auto;
 }
-.ch img{
+
+.ch img {
     width: 100px;
     margin: 0px 20px;
 }
-.ch-des{
+
+.ch-des {
     border: 30px red solid;
 }
-.ch-des p{
+
+.ch-des p {
     margin: 5% 10%;
 }
-.ch-des img{
+
+.ch-des img {
     margin: 20px;
     width: 80%;
 }
-.ima{
+
+.ima {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-.contato{
+
+.bb {
+    width: 75%;
+    margin: 0% 0% 0% 5%;
+    margin: auto;
+}
+
+.bb a {
+    color: white;
+    text-decoration: none;
+}
+
+.bb button {
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    padding: 10%;
+    transition: 0.5s;
+}
+
+.bb button:hover {
+    background-color: rgb(150, 43, 78);
+    padding: 50px;
+}
+
+.contato {
     background-color: black;
     color: white;
 }
-.contato p{
+
+.contato p {
     padding: 30px 0px 20px 0px;
     text-align: center;
 }
-.contato a{
+
+.contato a {
     color: white;
     transition: 0.5s;
 }
-.contato a:hover{
+
+.contato a:hover {
     color: violet;
 }
-.t{
+
+.t {
     text-align: center;
     padding-top: 30px;
 }
-.f{
+
+.f {
     display: flex;
     justify-content: center;
 }
-.telefone{
+
+.telefone {
     margin: 40px auto;
     text-align: center;
 }
-.email{
+
+.email {
     text-align: center;
     margin: 40px auto;
 }
-.redes{
+
+.redes {
     display: flex;
     justify-content: center;
 }
-.redes a:hover{
-     background-color: blanchedalmond;
-     padding: 10px;
-     border-radius: 10px;
+
+.redes a:hover {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
 }
-.redes img{
+
+.redes img {
     width: 80px;
     padding: 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .f {
+        display: block;
+        justify-content: center;
+    }
+
+    .menu li {
+        list-style: none;
+        display: inline-block;
+        padding: 0px 10px;
+        margin: 30px 0px;
+    }
+
+    .bus {
+        background-color: rgba(194, 164, 159, 0.075);
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+        box-shadow: 2px 2px 2px 2px;
+    }
+
+    .ch {
+        background-color: rgba(250, 235, 215, 0.274);
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        padding: 20px;
+    }
+
+    .ch-des {
+        border: none;
+        background-color: rgba(250, 235, 215, 0.274);
+    }
 }
