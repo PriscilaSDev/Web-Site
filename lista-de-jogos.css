@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    background-color: rgba(218, 18, 245, 0.445);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo img{
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 30%;
+    margin: 0% 10%;
+}
+.menu{
+  margin: auto;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.menu a:hover{
+    text-decoration: none;
+    color: rgb(15, 133, 87);
+    background-color: rgba(255, 0, 0, 0.466);
+    border-radius: 10%;
+    padding: 10px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+         padding: 0px 10px;
+}
+.titulo{
+    text-align: center;
+    padding: 50px;
+    background-color: yellowgreen;
+}
+.container{
+    margin: 50px auto;
+    width: 80%;
+    background-color: thistle;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item img{
+    padding: 10px 20px;
+    width: 100px;
+}
+.imf img{
+    width: 50%;
+}
+.cop{
+    background-color: rgba(255, 0, 212, 0.315);
+    margin: 0% 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(110, 33, 33);
+    transition: 0.5s;
+}
+.cop:hover{
+    background-color: rgba(238, 4, 207, 0.226);
+}
+.cop a{
+    text-decoration: none;
+}
+.geiko{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+.geiko img{
+    margin: 0px 50px;
+     border-radius: 50%;
+     width: 100px;
+}
+.contato{
+    background-color: black;
+    color: white;
+}
+.contato p{
+    padding: 30px 0px 20px 0px;
+    text-align: center;
+}
+.contato a{
+    color: white;
+    transition: 0.5s;
+}
+.contato a:hover{
+    color: violet;
+}
+.t{
+    text-align: center;
+    padding-top: 30px;
+}
+.f{
+    display: flex;
+    justify-content: center;
+}
+.telefone{
+    margin: 40px auto;
+    text-align: center;
+}
+.email{
+    text-align: center;
+    margin: 40px auto;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes a:hover{
+     background-color: blanchedalmond;
+     padding: 10px;
+     border-radius: 10px;
+}
+.redes img{
+    width: 80px;
+    padding: 0px 20px;
+}
